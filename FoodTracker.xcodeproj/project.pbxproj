@@ -14,6 +14,9 @@
 		30187F1E1F2EEFFB007BB7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30187F1C1F2EEFFB007BB7AA /* LaunchScreen.storyboard */; };
 		30187F291F2EEFFB007BB7AA /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30187F281F2EEFFB007BB7AA /* FoodTrackerTests.swift */; };
 		30187F341F2F8EB4007BB7AA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30187F331F2F8EB4007BB7AA /* RatingControl.swift */; };
+		307D47721F311E5A008474AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D47711F311E5A008474AD /* LoginViewController.swift */; };
+		307D47741F311E83008474AD /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D47731F311E83008474AD /* SignupViewController.swift */; };
+		307D47771F317D1D008474AD /* CloudAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307D47761F317D1D008474AD /* CloudAPI.swift */; };
 		30AACCAF1F30DF6C007B79BB /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AACCAE1F30DF6C007B79BB /* Meal.swift */; };
 		30AACCB11F30DF8E007B79BB /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AACCB01F30DF8E007B79BB /* MealTableViewController.swift */; };
 		30AACCB31F30DFA4007B79BB /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AACCB21F30DFA4007B79BB /* MealTableViewCell.swift */; };
@@ -41,6 +44,10 @@
 		30187F281F2EEFFB007BB7AA /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		30187F2A1F2EEFFB007BB7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30187F331F2F8EB4007BB7AA /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		307D47711F311E5A008474AD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		307D47731F311E83008474AD /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		307D47751F317413008474AD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		307D47761F317D1D008474AD /* CloudAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudAPI.swift; sourceTree = "<group>"; };
 		30AACCAE1F30DF6C007B79BB /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		30AACCB01F30DF8E007B79BB /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		30AACCB21F30DFA4007B79BB /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
@@ -92,9 +99,13 @@
 				30AACCAE1F30DF6C007B79BB /* Meal.swift */,
 				30187F131F2EEFFB007BB7AA /* AppDelegate.swift */,
 				30187F331F2F8EB4007BB7AA /* RatingControl.swift */,
+				307D47711F311E5A008474AD /* LoginViewController.swift */,
+				307D47731F311E83008474AD /* SignupViewController.swift */,
+				307D47761F317D1D008474AD /* CloudAPI.swift */,
 				30187F1A1F2EEFFB007BB7AA /* Assets.xcassets */,
 				30187F1C1F2EEFFB007BB7AA /* LaunchScreen.storyboard */,
 				30187F1F1F2EEFFB007BB7AA /* Info.plist */,
+				307D47751F317413008474AD /* MyPlayground.playground */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -213,7 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307D47721F311E5A008474AD /* LoginViewController.swift in Sources */,
 				30AACCB11F30DF8E007B79BB /* MealTableViewController.swift in Sources */,
+				307D47771F317D1D008474AD /* CloudAPI.swift in Sources */,
+				307D47741F311E83008474AD /* SignupViewController.swift in Sources */,
 				30AACCAF1F30DF6C007B79BB /* Meal.swift in Sources */,
 				30AACCB31F30DFA4007B79BB /* MealTableViewCell.swift in Sources */,
 				30187F161F2EEFFB007BB7AA /* MealViewController.swift in Sources */,
